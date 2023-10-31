@@ -1,5 +1,14 @@
 # genetic_alg_project
 
+# 0. requirements
+
+```
+pip install tk
+pip install matplotlib
+pip install numpy
+pip install pickle
+```
+
 # 1. main train 실행.
 
 ```
