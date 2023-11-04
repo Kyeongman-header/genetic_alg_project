@@ -85,8 +85,8 @@ def one_generation(generation,canvas,whole_individuals,is_Test=False,best_gene=[
             if inside_rec:
                 score+=1
 
-        print("time survive : " + str(count))
-        print("not inside rectangle time : " + str(count-score))
+        # print("time survive : " + str(count))
+        # print("not inside rectangle time : " + str(count-score))
         results.append({'gene' : gene,'time_survive' : count,'score' : score})
         canvas.delete("all")
         score_label.configure(text="")

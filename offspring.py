@@ -5,8 +5,8 @@ def mutation(gene):
     mutate_number=0
     for n in range(len(gene)):
         prob_mut=random.random()
-        if prob_mut>0.999: # 0.1%의 확률로, gene의 염기 서열은 돌연변이가 일어난다.
-            if prob_mut>0.9995:
+        if prob_mut>0.99: # 1%의 확률로, gene의 염기 서열은 돌연변이가 일어난다.
+            if prob_mut>0.995:
                 gene[n]=random.choice(nucleobase)
             else:
                 changer=random.choice(range(0,len(gene)))

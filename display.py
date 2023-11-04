@@ -18,6 +18,12 @@ with open("max_array_" + filename, "rb") as fp:   # Unpickling
 print(avgs)
 print(maxes)
 
+avgs=avgs[:50]
+maxes=maxes[:50]
+best_genes=best_genes[:50]
+
+samples=[1,10,25,49]
+
 whole_len=len(best_genes)
 best_genes=best_genes[-last_n_samples:]
 # print(best_genes)

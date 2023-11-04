@@ -4,7 +4,7 @@ import sys
 
 
 Time_Limit=300
-gene_length=50
+gene_length=300
 
 window = tk.Tk()
 width=300
@@ -16,4 +16,4 @@ canvas.pack()
 nucleobase=[[10,10],[-10,10],[-10,-10],[10,-10]] # 핵염기. AGCT. 동서, 서남, 남동, 동북
 
 whole_generations=100
-whole_individuals=1000
+whole_individuals=100
